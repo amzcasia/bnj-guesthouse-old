@@ -5,11 +5,11 @@ export default function Hero(){
         style={"background-image: url('../src/assets/hero-background-image.png')"}>
             {/* style={"background-image: url('../src/assets/hero-background-image.png')"} */}
             {/* <div className="absolute top-0 w-full z-[-1]">
-                <img className="w-full absolute" src="../src/assets/hero-background-image.png" alt="" />
+                <img className="absolute w-full" src="../src/assets/hero-background-image.png" alt="" />
             </div> */}
             <div className="text-center bg-white px-12 w-max max-w-[600px] py-8 rounded-[13px] mt-[450px] mx-auto">
-                <p className="text-4xl font-bold mb-6">Your Stay Made Simple</p>
-                <button className="bg-accent text-3xl font-bold px-6 py-2 rounded-full"><a href="#">BOOK NOW</a></button>
+                <p className="mb-6 text-4xl font-bold">Your Stay Made Simple</p>
+                <button className="px-6 py-2 text-3xl font-bold rounded-full bg-accent"><a href="#">BOOK NOW</a></button>
             </div>
             <div className="bg-[#FDF1D2] flex justify-between mt-6 py-6 px-10 text-2xl">
                 <div className="">
